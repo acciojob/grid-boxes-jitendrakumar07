@@ -1,0 +1,4 @@
+{
+  "testRepo": "grid-boxes-solution",
+  "pathToFile": "cypress/integration/tests/test.spec.js"
+}
