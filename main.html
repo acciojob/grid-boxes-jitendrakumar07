@@ -19,12 +19,11 @@
             font-weight: bold;
         }
 
-        /* Custom grid layout */
         .container-custom {
             padding: 0;
         }
 
-        /* Ensure full-width for section 1 */
+        /* Full-width for section 1 */
         .full-width {
             grid-column: span 2;
         }
@@ -33,6 +32,9 @@
         @media (max-width: 768px) {
             .row > * {
                 flex: 100%; /* Stack on smaller screens */
+            }
+            .section {
+                height: 80px; /* Reduce height on mobile */
             }
         }
     </style>
