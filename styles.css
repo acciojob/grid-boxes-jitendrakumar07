@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+#grid {
+            display: grid;
+            grid-template-rows: 124px 124px 124px 124px 124px;
+            grid-template-columns: repeat(4, 242.5px);
+            grid-gap: 10px;
+            padding: 20px;
+        }
+        .section {
+            background-color: #2ecc71;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        #section1 { grid-column: span 4; }
+        #section2 { grid-row: span 4; }
+        #section4 { grid-column: span 2; }
+        #section5 { grid-column: span 2; }
+        #section10 { grid-column: span 3; }
